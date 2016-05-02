@@ -79,3 +79,4 @@ class File(TelegramObject):
             filename = basename(url)
 
         _download(url, filename)
+    return url
